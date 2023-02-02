@@ -1,0 +1,63 @@
+#titulo, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(207, 207, 207);
+}
+
+#titulo{
+    margin: auto;
+    background-color: rgb(75, 74, 74);
+    padding: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+ 
+h2{
+    background-color: gray;
+    color:blanchedalmond;
+    margin-bottom: 0;
+}
+
+.pie{
+    background-color: rgb(194, 193, 193);
+    margin: 0 ;
+
+}
+
+section{
+    transition: box-shadow 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+section article:hover{
+    box-shadow: 0 0.3px 5px black;
+}
+
+footer{
+    background-color: rgb(75, 74, 74);
+    padding: 35px
+}
+
+footer a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    float:right;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
+footer p{
+    margin: 0;
+    float: left;
+}
+
+
+
